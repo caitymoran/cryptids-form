@@ -134,3 +134,64 @@ h3.tagline {
     color: white;
     font-size: 120px;
 }
+
+footer {
+    background: rgba(56,178,228,.2);
+    padding: 30px 0;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+legend {
+    border: 0;
+    font-size: 14px;
+}
+input.form-control, textarea.form-control {
+    border: 1px dashed #999;
+    background: rgba(0,0,0,0);
+    margin-bottom: 10px;
+    color: #777;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+input:active + label {
+    font-weight: bold;
+}
+
+.glyphicon.glyphicon-ok {
+    display: none;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+input[type=radio] {
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked + label .glyphicon.glyphicon-ok{
+    display: inline-block;
+}
+
+input[type=radio]:checked + label {
+    background: white;
+    border-radius: 3px;
+    padding: 3px;
+    box-sizing:border-box;
+}
+
+option {
+    text-transform: uppercase;
+    font-size: 16px;
+    /*height: 30px;*/
+}
+
+
+.btn.btn-primary {
+    text-transform: uppercase;
+}
+
+

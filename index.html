@@ -62,28 +62,64 @@
 </div>
 
 
-<div class="container">
-    <fieldset class="row">
-        <legend class="col-sm-3">About You</legend>
-        <div class="col-sm-9">
-            <input type="text" class="form-control" placeholder="Your Name">
-            <input type="text" class="form-control" placeholder="Your Name">
-            <input type="text" class="form-control" placeholder="Your Name">
-        </div>
-    </fieldset>
-    <fieldset class="row">
-        <legend class="col-sm-3">Accessories</legend>
-        <div class="col-sm-9">
-            <input id="nosering" type="checkbox">
-            <label for="nosering">Nosering</label>
-        </div>
-    </fieldset>
-    <fieldset class="row">
-        <div class="col-sm-9 col-sm-offset-3">
-        <button class="btn btn-primary" type="submit">Buy One</button>
-        </div>
-    </fieldset>
-</div>
+<footer>
+    <div class="container">
+        <fieldset class="row">
+            <legend class="col-sm-3">About You</legend>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+                <input type="email" class="form-control" placeholder="Your Email Address" redquired>
+                <input type="tel" class="form-control" placeholder="Your Phone Number">
+            </div>
+        </fieldset>
+        <fieldset class="row">
+            <legend class="col-sm-3">Accessories</legend>
+            <div class="col-sm-9 accessories">
+                <input id="nosering" type="checkbox" class="yus">
+                <label for="nosering" class="yus-label"><i class="glyphicon glyphicon-ok"></i> Nosering</label>
+                <input id="axe" type="checkbox">
+                <label for="axe"><i class="glyphicon glyphicon-ok"></i> Axe</label>
+                <input id="face-paint" type="checkbox">
+                <label for="face-paint"><i class="glyphicon glyphicon-ok"></i> Face Paint</label>
+                <input id="xl-horns" type="checkbox">
+                <label for="xl-horns"><i class="glyphicon glyphicon-ok"></i> XL Horns</label>
+            </div>
+        </fieldset>
+        <fieldset class="row">
+            <legend class="col-sm-3">Currency</legend>
+            <div class="col-sm-9">
+                <input id="usd" type="radio" name="currency">
+                <label for="usd"><i class="glyphicon glyphicon-usd"></i> USD</label>
+                <input id="gbp" type="radio" name="currency">
+                <label for="gbp"><i class="glyphicon glyphicon-gbp"></i> GBP</label>
+                <input id="eruo" type="radio" name="currency">
+                <label for="eruo"><i class="glyphicon glyphicon-euro"></i> Euro</label>
+            </div>
+        </fieldset>
+        <fieldset class="row">
+            <legend class="col-sm-3">Payment Type</legend>
+            <div class="col-sm-9">
+                <select>
+                    <option value="first option">Amex</option>
+                    <option value="second option">Visa</option>
+                    <option value="third option">Mastercard</option>
+                    <option value="fourth option">Discover</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset class="row">
+            <legend class="col-sm-3">Custom Spell</legend>
+            <div class="col-sm-9">
+                <textarea rows="5" cols="100" class="form-control" placeholder="e.g by the power of the grayskull..."></textarea>
+            </div>
+        </fieldset>
+        <fieldset class="row">
+            <div class="col-sm-9 col-sm-offset-3">
+            <button class="btn btn-primary" type="submit">Buy One</button>
+            </div>
+        </fieldset>
+    </div>
+</footer>
 
 </body>
 </html>
