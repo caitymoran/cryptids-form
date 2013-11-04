@@ -136,7 +136,7 @@ h3.tagline {
 }
 
 footer {
-    background: rgba(56,178,228,.2);
+    background: rgba(56,178,228,.1);
     padding: 30px 0;
     padding-bottom: 20px;
     text-transform: uppercase;
@@ -176,10 +176,15 @@ input[type=checkbox]:checked + label .glyphicon.glyphicon-ok{
     display: inline-block;
 }
 
+input[type=radio] + label {
+    padding: 5px;
+    box-sizing:border-box;
+}
+
 input[type=radio]:checked + label {
     background: white;
-    border-radius: 3px;
-    padding: 3px;
+    border-radius: 6px;
+    padding: 5px;
     box-sizing:border-box;
 }
 
@@ -192,6 +197,10 @@ option {
 
 .btn.btn-primary {
     text-transform: uppercase;
+}
+
+select.form-control {
+    width: 200px;
 }
 
 
